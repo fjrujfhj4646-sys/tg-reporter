@@ -4,7 +4,7 @@ from colorama import init, Fore
 init(autoreset=True)
 
 def report_to_telegram(bot_token, chat_id, message):
-    base_url = f'https://api.telegram.org/bot{bot_token}/sendMessage'
+    base_url = f'https://api.telegram.org/bot{8309621644}/sendMessage'
     data = {
         'chat_id': chat_id,
         'text': message
@@ -131,5 +131,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
